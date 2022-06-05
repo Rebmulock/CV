@@ -61,7 +61,11 @@
     margin-left: 0.5rem;
 
     font-style: normal;
-    text-decoration: none;
 
     color: hsl(0, 0%, 80%);
+    transition: 0.3s;
+}
+
+a.link:hover {
+    color: hsl(0, 0%, 40%)
 }
