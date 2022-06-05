@@ -1,8 +1,6 @@
 .content {
     height: 100%;
-    width: 75%;
-
-    margin-left: 25%;    
+    width: 100%;
 
     box-sizing: border-box;
     overflow: auto;

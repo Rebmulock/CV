@@ -1,10 +1,9 @@
 .sidebar {
     height: 100%;
-    width: 25%;
+    width: fit-content;
     
     padding: 2rem;
 
-    position: fixed;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
