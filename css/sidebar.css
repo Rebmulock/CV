@@ -1,6 +1,7 @@
 .sidebar {
-    height: 100%; 
-    max-width: max-content;
+    height: 100%;
+    width: 25%;
+    min-width: max-content;
     
     padding: 2rem;
 
