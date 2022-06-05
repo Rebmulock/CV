@@ -62,7 +62,6 @@
     font-style: normal;
 
     color: hsl(0, 0%, 80%);
-    transition: 0.3s;
 }
 
 a.link:hover {
