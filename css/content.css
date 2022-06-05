@@ -1,6 +1,8 @@
-.content {
+.main-content {
     height: 100%;
     width: 100%;
+
+    padding-top: 2rem;
 
     box-sizing: border-box;
     overflow: auto;
@@ -14,7 +16,7 @@
 .navbar {
     height: 0;
     width: 3rem;
-    top: 14rem;
+    top: 9rem;
 
     position: fixed;
 }
@@ -47,4 +49,26 @@
     width: max-content;
 
     padding-left: 4rem;
+}
+
+.tab-name {
+    height: 2rem;
+
+    margin: 0 20rem 2rem 20rem;
+
+    font-size: 2rem;
+
+    color: hsl(44, 50%, 66%);
+}
+
+.tab {
+    margin: 0 20rem 0 20rem;
+    padding: 1rem;
+    top: 0; 
+    
+    display: flex;
+    flex-wrap: wrap;
+    
+    border: 2px solid hsl(0, 0%, 52%);
+    border-radius: 1rem;
 }
