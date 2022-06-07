@@ -80,6 +80,7 @@
 }
 
 .tab {
+    min-width: 760px;
     top: 0; 
 
     margin: 0 15% 0 15%;
@@ -143,9 +144,13 @@
 .closing-brace {
     height: 2rem;
 
-    margin: 2rem 0 80rem 0;
+    margin: 2rem 0 30rem 0;
 
     font-size: 2rem;
 
     color: hsl(53, 96%, 50%);
+}
+
+.last-brace {
+    margin-bottom: 0;
 }
