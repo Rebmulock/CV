@@ -140,6 +140,14 @@
     color: hsl(98, 34%, 46%);
 }
 
+.blank {
+    height: 1.75rem;
+    width: 25%;
+    margin-bottom: 0;
+
+    display: flex;
+}
+
 .closing-brace {
     height: 2rem;
 
