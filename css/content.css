@@ -112,8 +112,6 @@
     margin-bottom: 0.5rem;
     margin-left: 10%;
 
-    display: flex;
-
     color: hsl(19, 43%, 63%);
 }
 
@@ -122,9 +120,6 @@
 
     margin-bottom: 0.5rem;
     padding-left: 10%;
-
-    display: flex;
-    justify-content: flex-start;
 
     color: hsl(100, 30%, 74%);
 }
@@ -135,23 +130,20 @@
     margin-bottom: 0.5rem;
     margin-left: 35%;
 
-    display: flex;
-
     color: hsl(98, 34%, 46%);
 }
 
 .blank {
-    height: 1.75rem;
+    height: 2rem;
     width: 25%;
-    margin-bottom: 0;
 
-    display: flex;
+    margin-bottom: 0;
 }
 
 .closing-brace {
     height: 2rem;
 
-    margin-bottom: 80rem;
+    margin: 2rem 0 80rem 0;
 
     font-size: 2rem;
 
