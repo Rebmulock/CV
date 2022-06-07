@@ -1,0 +1,48 @@
+.skill-bar {
+    margin-left: 35%;
+    width: 100%;
+
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.bar-start {
+    margin: 0;
+    margin-top: 1.75rem;
+    width: 10%;
+    height: 1.75rem;
+
+    border: 2px solid hsl(0, 0%, 12%);
+    border-radius: 1rem 0 0 1rem;
+}
+
+.bar-block {
+    margin: 0;
+    margin-top: 1.75rem;
+    width: 10%;
+    height: 1.75rem;
+
+    border: 2px solid hsl(0, 0%, 12%);
+}
+
+.bar-end {
+    margin: 0;
+    margin-top: 1.75rem;
+    width: 10%;
+    height: 1.75rem;
+
+    border: 2px solid hsl(0, 0%, 12%);
+    border-radius: 0 1rem 1rem 0;
+}
+
+.full-bar {
+    background-color: hsl(204, 98%, 82%);
+}
+
+.half-bar {
+    background: linear-gradient(to right, hsl(204, 98%, 82%) 50%, hsl(0, 0%, 52%) 50%);
+}
+
+.blank-bar {
+    background-color: hsl(0, 0%, 52%);
+}
