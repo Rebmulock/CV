@@ -8,12 +8,12 @@ html {
     box-sizing: border-box;
 }
 
-html::-webkit-scrollbar {
+::-webkit-scrollbar {
     width: 20px;
 }   
 
-html::-webkit-scrollbar-thumb {
-    background-color: hsl(0, 31%, 67%);
+::-webkit-scrollbar-thumb {
+    background-color: hsl(0, 0%, 26%);
     border-radius: 1rem;
 }
 
