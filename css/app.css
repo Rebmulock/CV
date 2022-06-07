@@ -32,3 +32,11 @@ a {
 p {
     margin: 0;
 }
+
+hr {
+    border: 0;
+    border-top: 2px solid hsl(0, 0%, 52%);
+
+    height: 1px;
+    width: 100%;
+}
