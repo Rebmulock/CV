@@ -14,7 +14,7 @@
     }
     
     .zoomed-sidebar {
-        height: 15%;
+        height: 6rem;
         width: 100%;
 
         padding: 1rem;
@@ -56,5 +56,15 @@
 
     .zoomed-sidebar-footer .link {
         margin-right: 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .zoomed-sidebar {
+        display: none;
+    }
+
+    .navbar {
+        display: none;
     }
 }
