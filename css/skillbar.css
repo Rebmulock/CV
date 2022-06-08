@@ -1,9 +1,8 @@
 .skill-bar {
-    margin-left: 35%;
+    margin: 0 0 2rem 35%;
     width: 100%;
 
     display: flex;
-    flex-wrap: nowrap;
 }
 
 .bar-start {
